@@ -15,7 +15,7 @@ void menu()
 int main()
 {
 	//创建通讯录
-	struct Contact con;
+	struct Contact con;//con就是通讯录，里面包含：1000个元素和size
 	//初始化通讯录
 	InitContact(&con);
 
@@ -31,16 +31,19 @@ int main()
 			AddContact(&con);
 			break;
 		case 2:
+			DelContact(&con);
 			break;
 		case 3:
+			SearchContact(&con);
 			break;
 		case 4:
+			ModifyContact(&con);
 			break;
 		case 5:
 			ShowContact(&con);
 			break;
 		case 6:
-			
+			SortContact(&con);
 			break;
 		case 0:
 			printf("程序退出");

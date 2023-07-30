@@ -36,4 +36,14 @@ void AddContact(struct Contact* ps);
 //打印函数声明
 void ShowContact(const struct Contact* ps);
 
+//删除函数声明
+void DelContact(struct Contact* ps);
 
+//查找函数声明
+void SearchContact(const struct Contact* ps);
+
+//修改函数声明
+void ModifyContact(struct Contact* ps);
+
+//排序函数声明
+void SortContact(struct Contact* ps);
