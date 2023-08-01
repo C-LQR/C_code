@@ -1,0 +1,2 @@
+D:\project\c\contact\x64\Debug\contact.exe
+D:\project\c\contact_dynamic\x64\Debug\contact.exe

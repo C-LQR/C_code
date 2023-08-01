@@ -1,0 +1,5 @@
+﻿  contact.c
+  test.c
+  正在生成代码...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1127,5): error MSB6006: “link.exe”已退出，代码为 1168。
+LINK : fatal error LNK1168: 无法打开 D:\project\c\contact_dynamic\x64\Debug\contact.exe 进行写入
